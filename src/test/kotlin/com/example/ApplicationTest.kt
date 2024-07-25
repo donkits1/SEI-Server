@@ -33,6 +33,22 @@ class ApplicationTest {
     }
 
 //    @Test
+//    fun testGetBikeID() = testApplication {
+//        client.get("/checkcustomer/customerName=Berb").apply {
+//            assertEquals(HttpStatusCode.OK, status)
+//            assertEquals("{\"userid\":43,\"name\":\"Berb\"}", bodyAsText())
+//        }
+//    }
+//
+//    @Test
+//    fun testGetBikeID() = testApplication {
+//        client.get("/checkcustomer/customerName=Berb").apply {
+//            assertEquals(HttpStatusCode.OK, status)
+//            assertEquals("{\"userid\":43,\"name\":\"Berb\"}", bodyAsText())
+//        }
+//    }
+
+//    @Test
 //    fun testRecordTRX() = testApplication {
 //        client.post("/addtrx/order=1Bike/total=20/userid=1").apply {
 //            assertEquals(HttpStatusCode.OK, status)
